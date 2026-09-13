@@ -1,18 +1,16 @@
-# Shuttle2ISS
+# R Portfolio - Space Shuttle Trajectory Simulator to the ISS
 
-Simulation of shuttle rendezvous and docking to the ISS from scratch.
+SECIHTI Preparation Project - From Ideal Orbits to Actual Launch
 
-From orbital logic to animation, no magic, just pure physics.
+### Level 0: Ideal Orbits (Completed)
+- 0.1 Circular Velocity (7.67 km/s at 400 km)
+- 0.2 Energy and Period
+- 0.3 Escape (11.2 km/s)
+- 0.4 Velocity vs. Altitude Curve -> docs/velocity_curve.png
+- 0.5 Core/orbital.py Toolkit optimized with NumPy
 
-## Roadmap
-- [x] Level 0.1: Circular velocity `v = sqrt(GM/r)`
-- [ ] Level 0.2: Orbital energy
-- [ ] Level 1: 2D vectors and orbits
-- [ ] Level 2: Docking animation
-- [ ] Level 3: Hohmann maneuver
+### Level 1: Actual Launch (In Progress)
+- 1.0 Gravity Turn, 1.1 Variable Mass, 1.2 Staging, 1.3 Max-Q Drag
 
-## Stack
-Python, NumPy, Matplotlib
-
-## Author
-Jorge - SECIHTI Applicant / Space R&D
+Author: Jorge - Mexico City
+Stack: Python, NumPy, Matplotlib
